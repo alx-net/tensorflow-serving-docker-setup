@@ -3,11 +3,12 @@ Tensorflow serving setup to deploy Tensorflow models as a docker image.
 
 # Usage
 Put your Tensorflow models in the models directory in the following structure
+```
 /models/yourmodel/0/assets/
 /models/yourmodel/0/variables
 /models/yourmodel/0/keras_metadata.pb
 /models/yourmodel/0/saved_model.pb
-
+```
 0 is the current version of your model, you can add multiple versions of one model.
 
 Then edit the config/models.config to
