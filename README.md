@@ -26,7 +26,7 @@ As last step, change the docker image name in the Dockerfile then run ```sh buil
 
 To start the docker container simply run ```bash docker run --rm -p 8051:8051 image-name-you-chose```
 
-# Accessing deployed neural networks
+# Accessing neural networks
 You can access your deployed models over gRPC or a REST-api.
 ## Endpoint (without version)
 ```/v1/models/yourmodel:predict```
