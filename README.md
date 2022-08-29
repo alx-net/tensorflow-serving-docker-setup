@@ -19,7 +19,7 @@ model_config_list: {
      base_path: "/models/yourmodel",
      model_platform: "tensorflow"
   }
-  ... // your other models
+  ... // other models
 }
 ```
 
