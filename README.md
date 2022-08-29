@@ -31,7 +31,7 @@ You can access your deployed models over gRPC or a REST-api.
 
 Create a POST-Request with
 ```javascript 
-{"instances": img_data_as_array}
+{"instances": input_data}
 ```
 
 as request body to the following endpoints.
