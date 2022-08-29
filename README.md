@@ -2,7 +2,7 @@
 Tensorflow serving setup to deploy Tensorflow models as a docker image.
 
 # Usage
-Put your Tensorflow models in the models directory in the following structure
+Put your Tensorflow models in the models directory (delete the dummy model) in the following structure
 ```
 /models/yourmodel/0/assets/
 /models/yourmodel/0/variables
