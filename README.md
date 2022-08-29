@@ -1,5 +1,5 @@
 # Tensorflow serving setup for Docker
-Tensorflow serving setup to deploy Tensorflow models.
+Tensorflow serving setup to deploy Tensorflow models as a docker image.
 
 # Usage
 Put your Tensorflow models in the models directory in the following structure
